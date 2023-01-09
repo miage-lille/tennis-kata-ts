@@ -40,7 +40,7 @@ export const scoreWhenAdvantage = (
 };
 
 export const scoreWhenForty = (
-  currentForty: unknown,
+  currentForty: unknown, // TO UPDATE WHEN WE KNOW HOW TO REPRESENT FORTY
   winner: Player
 ): Score => {
   throw new Error('not implemented');
