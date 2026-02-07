@@ -1,8 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
 import { otherPlayer, playerToString } from '..';
-// import * as fc from 'fast-check';
-
-// import * as G from './generators';
 
 describe('Tests for tooling functions', () => {
   test('Given playerOne when playerToString', () => {
@@ -35,21 +32,14 @@ describe('Tests for transition functions', () => {
   // });
   // -------------------------TESTS POINTS-------------------------- //
   // test('Given players at 0 or 15 points score kind is still POINTS', () => {
-  // fc.assert(
-  //   fc.property(G.getPoints(), G.getPlayer(), ({ pointsData }, winner) => {
-  //     throw new Error(
-  //       'Your turn to code the preconditions, expected result and test.'
-  //     );
-  //   })
-  // );
+  //   throw new Error(
+  //     'Your turn to code the preconditions, expected result and test.'
+  //   );
   // });
+
   // test('Given one player at 30 and win, score kind is forty', () => {
-  // fc.assert(
-  //   fc.property(G.getPoints(), G.getPlayer(), ({ pointsData }, winner) => {
-  //     throw new Error(
-  //       'Your turn to code the preconditions, expected result and test.'
-  //     );
-  //   })
-  // );
+  //   throw new Error(
+  //     'Your turn to code the preconditions, expected result and test.'
+  //   );
   // });
 });
